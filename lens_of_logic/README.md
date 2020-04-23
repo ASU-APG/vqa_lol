@@ -615,39 +615,4 @@ The features will be saved in `train.tsv`, `valid.tsv`, and `test.tsv` under the
 5. Exit from the docker container (by executing `exit` command in bash). The extracted features would be saved under folder `data/mscoco_imgfeat`. 
 
 
-## Reference
-If you find this project helps, please cite our paper :)
 
-```bibtex
-@inproceedings{tan2019lxmert,
-  title={LXMERT: Learning Cross-Modality Encoder Representations from Transformers},
-  author={Tan, Hao and Bansal, Mohit},
-  booktitle={Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing},
-  year={2019}
-}
-```
-
-## Acknowledgement
-We thank the funding support from ARO-YIP Award #W911NF-18-1-0336, & awards from Google, Facebook, Salesforce, and Adobe.
-
-We thank [Peter Anderson](https://panderson.me/) for providing the faster R-CNN code and pre-trained models under
-[Bottom-Up-Attention Github Repo](https://github.com/peteanderson80/bottom-up-attention).  We thank [Hengyuan Hu](https://www.linkedin.com/in/hengyuan-hu-8963b313b) for his [PyTorch VQA](https://github.com/hengyuan-hu/bottom-up-attention-vqa) implementation, our VQA implementation borrows its pre-processed answers.
-We thank [hugginface](https://github.com/huggingface) for releasing the excellent PyTorch code 
-[PyTorch Transformers](https://github.com/huggingface/pytorch-transformers).  
-
-We thank [Drew A. Hudson](https://www.linkedin.com/in/drew-a-hudson/) to answer all our questions about GQA specification.
-We thank [Alane Suhr](http://alanesuhr.com/) for helping test LXMERT on NLVR2 unreleased test split and provide [a detailed analysis](http://lil.nlp.cornell.edu/nlvr/NLVR2BiasAnalysis.html).
-
-We thank all the authors and annotators of vision-and-language datasets 
-(i.e., 
-[MS COCO](http://cocodataset.org/#home), 
-[Visual Genome](https://visualgenome.org/),
-[VQA](https://visualqa.org/),
-[GQA](https://cs.stanford.edu/people/dorarad/gqa/),
-[NLVR2](http://lil.nlp.cornell.edu/nlvr/)
-), 
-which allows us to develop a pre-trained model for vision-and-language tasks.
-
-We thank [Jie Lei](http://www.cs.unc.edu/~jielei/) and [Licheng Yu](http://www.cs.unc.edu/~licheng/) for their helpful discussions. I also want to thank [Shaoqing Ren](https://www.shaoqingren.com/) to teach me vision knowledge when I was in MSRA.  We also thank you to help look into our code. Please kindly contact us if you find any issue. Comments are always welcome.
-
-LXRThanks.
